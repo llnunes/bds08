@@ -14,7 +14,7 @@
   .sales-by-gender-container .sales-by-gender-data {
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
   }
   .sales-by-gender-container {
     height: 560px !important;
@@ -27,16 +27,18 @@
     padding: 0 10px;
   }
 
+  .vendas-filter-bottom-container {
+    width: 225px !important;
+  }
+
   .sales-by-gender-container .sales-by-gender-data {
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: nowrap;
-         
   }
 
   .sales-by-gender-chart {
     padding-top: 0;
     margin-left: 50px;
   }
-  
 }

@@ -15,7 +15,7 @@ export type FilterData = {
 };
 
 export type SalesSummaryData = {
-  sum?: number;
+  sum: number;
   min: number;
   max: number;
   avg: number;
@@ -27,14 +27,8 @@ export type Store = {
   name: string;
 };
 
-
-export type SalesByStore = {
-  storeName: string;
-  sum: number;
-};
-
-export type SalesByPaymentMethod = {
-  description: string;
+export type SalesByGenderResponse = {
+  gender: string;
   sum: number;
 };
 
