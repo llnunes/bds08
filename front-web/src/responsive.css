@@ -1,0 +1,42 @@
+@media screen and (max-width: 992px) {
+  /* abaixo de 992 vai aplicar isso */
+  #root .app-container {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* abaixo de 768 vai aplicar isso */
+  #root .app-container {
+    padding: 0 40px;
+  }
+
+  .sales-by-gender-container .sales-by-gender-data {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;    
+  }
+  .sales-by-gender-container {
+    height: 560px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* abaixo de 576 vai aplicar isso */
+  #root .app-container {
+    padding: 0 10px;
+  }
+
+  .sales-by-gender-container .sales-by-gender-data {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+         
+  }
+
+  .sales-by-gender-chart {
+    padding-top: 0;
+    margin-left: 50px;
+  }
+  
+}

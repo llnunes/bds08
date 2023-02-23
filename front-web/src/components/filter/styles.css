@@ -1,0 +1,49 @@
+.filter-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.vendas-filter-bottom-container {
+    width: 270px;
+    display: flex !important;    
+}
+
+.vendas-filter-store-container {
+    flex: 1 !important;
+}
+
+.vendas-filter-select__single-value {
+    color: var(--light-gray-color) !important;
+}
+
+.vendas-filter-select__clear-indicator {
+    color: var(--light-gray-color) !important;
+}
+
+.vendas-filter-select__dropdown-indicator {
+    color: var(--light-gray-color) !important;
+}
+
+.vendas-filter-select__control {
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: -0.015em;
+    color: #8D8D8D;
+    border: 1px solid #8D8D8D !important;
+    background-color: var(--primary-color) !important;
+}
+
+.vendas-filter-select__placeholder {
+    color: var(--light-gray-color) !important;
+}
+
+.vendas-filter-select__indicator-separator {
+    display: none;
+}
+
+
